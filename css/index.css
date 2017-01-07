@@ -1,0 +1,186 @@
+.tm-banner-inner .tm-banner-title{
+    transform: translateX(-300%);
+    animation: sectitle0 1s ease-in-out 100ms forwards;
+    animation-delay: 1s;
+
+}
+.tm-banner-inner  .tm-banner-text{
+    transform: translateX(300%);
+    animation: sectitle1 1s ease-in-out 100ms forwards;
+    animation-delay: 1s;
+}
+@-webkit-keyframes sectitle1{
+    0%{
+        transform: translateX(300%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@-webkit-keyframes sectitle0{
+    0%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.tm-main-nav .tm-nav-item{
+    transform: translateY(-100%);
+    animation: nav 1s ease-in-out 100ms forwards
+}
+@-webkit-keyframes nav{
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.gallery-container li img{
+    width:249.983px;margin: auto;
+}
+ul li{
+    list-style: none;
+}
+#ideas li{
+    align:center;
+    height:200px;
+}
+#ideas ul li img{
+    width:160px;height: 160px;
+    margin-top: 20px;
+}
+
+
+@-webkit-keyframes sec0{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+#ideas li img {
+    transition: all 0.5s;
+    position: relative;
+}
+
+#ideas li img:hover {
+    transform: scale(1.3);
+}
+.carousel-content .flex-item{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.flex-item img{
+    width:240px;
+}
+
+.flex-item .aboutme{
+    width: 230px;height: auto;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.flex-item .airplane{
+    margin-left: 60px;
+}
+.flex-item .airplane img{
+    width: 120px;
+    transform: translateX(-600%);
+    animation: air 1s ease-in-out 100ms forwards
+}
+@-webkit-keyframes air{
+    0%{
+        transform: translateX(-300%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.flex-item .aboutme2{
+    width: 370px;
+}
+.aboutme2 p{
+    text-align: center;
+}
+.tm-content-box .city{
+    width: 750px;
+}
+
+#ideas .boxes .box{
+    overflow: hidden;
+}
+#ideas .boxes .box img{
+    position: relative;top:0;left:0;
+}
+#ideas .boxes .box .cover{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+article{
+    position: relative;
+    display: block;
+    top:0;right:0;left:0;bottom:0;
+    margin:auto;
+}
+
+.poster-main{
+    width: 7500px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+.poster-main a,.poster-main img{
+    display:block;
+}
+.poster-main .poster-list{
+    width: 1000px;
+    height: 500px;
+}
+.poster-main .poster-list .poster-item{
+    width: 200px;
+    height: 300px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.poster-main .poster-btn{
+    position:absolute;
+    top:-50px;
+    z-index:10;
+    cursor:pointer;
+    height: 150px;
+}
+.poster-main .poster-prev-btn{
+    left:0;
+    background: url(../img/left.png) no-repeat center center;
+    width: 125px;height: 150px;
+
+}
+.poster-main .poster-next-btn{
+    right:0;
+    background: url(../img/right.png) no-repeat center center;
+    width: 125px;height: 150px;
+
+}
+.poster-list .poster-item{
+
+}
+
+
+
